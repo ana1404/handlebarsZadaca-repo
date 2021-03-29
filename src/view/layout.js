@@ -1,0 +1,7 @@
+export default `
+<h2>Pretražite postojeće fakultete u određenim državama:</h2>
+<label>Upiši ime države:</label>
+<input type="text" id="input">
+<div hidden id="spinner"></div>
+<h3>Fakulteti u državi:</h3>
+<div id="rez"></div>`;
