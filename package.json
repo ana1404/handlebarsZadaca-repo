@@ -1,0 +1,24 @@
+{
+  "name": "handlebarsZadaca-repo",
+  "version": "1.0.0",
+  "description": "Primjena handlebarsa na modularno programiranje",
+  "main": "index.js",
+  "scripts": {
+    "handlebars": "handlebars src/view/ -f tamplatesCompiled.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ana1404/handlebarsZadaca-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ana1404/handlebarsZadaca-repo/issues"
+  },
+  "homepage": "https://github.com/ana1404/handlebarsZadaca-repo#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}
