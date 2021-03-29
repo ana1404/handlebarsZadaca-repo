@@ -16,12 +16,15 @@ export default () => {
 
     input.addEventListener("change", (e) => {
 
+        spinner.removeAttribute("hidden");
+
         while (divRez.hasChildNodes()) {
             divRez.removeChild(divRez.lastChild);
         }
 
         dohvati(e.target.value).then(vrijednost => {
             vrijednost.forEach(g => {
+                spinner.setAttribute("hidden", "");
                 //kreirnje <li></li>
                 var mojHandleBar = Handlebars.templates.result(g);
                 render(divRez, mojHandleBar);
